@@ -1,0 +1,9 @@
+- Poznámky pro nasazení -
+
+Vytvořte databázi security_demo a spusťte SQL z schema.sql.
+
+Vytvořte soubor .env (v kořenovém adresáři projektu) s přístupovými údaji k DB a APP_ENV=production.
+
+Na produkci nastavte HTTPS a zajistěte, aby display_errors bylo vypnuto.
+
+Doporučené PHP nastavení: session.use_strict_mode = 1.
